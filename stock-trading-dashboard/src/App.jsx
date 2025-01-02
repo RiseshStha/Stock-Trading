@@ -78,14 +78,10 @@ function App() {
     );
   }
 
+  
   return (
     <div>
-      <Dashboard 
-        modelResults={modelResults} 
-        lastUpdate={lastUpdate}
-        onRefresh={forceUpdate}
-        loading={loading}
-      />
+      <Dashboard modelResults={modelResults} />
     </div>
   );
 }
